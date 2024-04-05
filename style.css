@@ -1,0 +1,91 @@
+* {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+#ajio-nav-logo {
+    height: 45%;
+}
+
+#lodo-container-div {
+    display: flex;
+    align-items: center;
+}
+
+#nav-categories-container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1%;
+    justify-content: space-between;
+}
+
+#nav-utilities-container {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1.5%;
+    padding-bottom: 0.8%;
+}
+
+#nav-search-div {
+    border-radius: 1000px;
+    padding: 0.8% 2.5%;
+    border: 1px solid black;
+    background-color: rgb(244, 244, 224);
+    width: 75%;
+}
+/* #carouselExample{
+    margin-bottom: 1%; 
+} */
+
+
+
+.nav-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 12vh;
+}
+
+.nav-container-div {
+    width: 33.33%;
+}
+
+.carousel.slide {
+    margin-bottom: 1%;
+}
+.qw{
+    
+/* width: 100%; */
+margin-bottom: 1%;
+}
+/* .qww{
+    
+    width: 100%;
+    } */
+.grid-5{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+}  
+.image-grid-container { 
+    display: grid; 
+
+    /* For 4 columns */ 
+    grid-template-columns: auto auto auto auto; 
+}  
+.image-grid-container1 { 
+    display: grid; 
+
+    /* For 4 columns */ 
+    grid-template-columns: auto auto auto; 
+}  
+.footer{
+    /* background-color: #043959; */
+    background-color: #01263a;
+    color: aliceblue;
+}
+.col ul li{
+    list-style-type: none;
+}
+
+
